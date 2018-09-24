@@ -3,24 +3,26 @@ import React from 'react';
 class Contacts extends React.Component {
   render() {
     return (
-      <div className="content">
-          <div className="contacts">
-            <h5 className="content-heading">Контакти</h5>
-
-            <div className="contact">
-              <h6 className="contacts-heading">Комендант</h6>
-              <p>Назік <a href="tel:9379992">9379992</a></p>
-            </div>
-            <div className="contact">
-              <h6 className="contacts-heading">Бунч</h6>
-              <p>Назік <a href="tel:9379992">9379992</a></p>
-            </div>
-            <div className="contact">
-              <h6 className="contacts-heading">Писар</h6>
-              <p>Назік <a href="tel:9379992">9379992</a></p>
-            </div>
+        <div className="contacts">
+          <div className="contact">
+            <h6 className="contacts-heading">Комендант: </h6>
+            <p>Наталя Андрушків
+            </p>
+            <a href="tel:0935521991">0935521991</a>
+            <br/>
+            <a href="tel:0965592662">0965592662</a>
           </div>
-      </div>
+          <div className="contact">
+            <h6 className="contacts-heading">Бунчужний: </h6>
+            <p>Ярко Співак</p>
+            <a href="tel:0676377585">0676377585</a>
+          </div>
+          <div className="contact">
+            <h6 className="contacts-heading">Писар: </h6>
+            <p>Катерина Панькевич</p>
+            <a href="tel:0932553546">093255546</a>
+          </div>
+        </div>
     );
   }
 }

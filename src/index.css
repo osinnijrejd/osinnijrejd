@@ -80,13 +80,11 @@ body {
 .contacts {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
+  text-align: center;
 }
 
 .contacts-heading {
   font-size: 18px;
-  /* text-align: center; */
   margin-top: 20px;
   margin-bottom: 5px;
 }
