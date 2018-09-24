@@ -7,7 +7,7 @@ class NavBar extends React.Component {
       <div>
         <nav className="nav-bar">
           <div className="nav-bar-link-container">
-            <Link to='/home' className="nav-bar-link">Карта
+            <Link to='/' className="nav-bar-link">Карта
               <i className="far fa-map"></i>
             </Link>
           </div>
