@@ -1,5 +1,5 @@
 import React from 'react';
-import MainMap from './map.png';
+import MainMap from './map.jpg';
 
 class Home extends React.Component {
   render() {
